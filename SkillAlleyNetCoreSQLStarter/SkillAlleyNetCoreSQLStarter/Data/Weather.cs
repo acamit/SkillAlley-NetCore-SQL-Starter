@@ -10,7 +10,7 @@ namespace SkillAlleyNetCoreSQLStarter.Data
     {
         [Key]
         public long Id { get; set; }
-        public DateTime Date { get; set; }
+        public DateTime Day { get; set; }
         public double TemperatureC { get; set; }
         public string Summary { get; set; }
     }
